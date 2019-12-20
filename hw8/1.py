@@ -89,7 +89,6 @@ def variational_inference(Sigma_W, y_train, x_train, S, max_iteration, step_size
 
 def variational_bernoulli_regression(Sigma_W, x_train, y_train, S=2000, max_iteration=2000, step_size=1e-2,
                                      verbose=True):
-    '''perform bayesian regression: infer posterior, visualize posterior predictive, compute log-likelihood'''
 
     D = Sigma_W.shape[0]
 
